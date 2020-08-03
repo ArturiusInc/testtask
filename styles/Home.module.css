@@ -1,0 +1,73 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.main {
+	margin: 34px 0 20px 0;
+	width: 685px;
+}
+
+.h1 {
+	font-size: 18px;
+	line-height: 21px;
+	padding: 20px 0 0 0;
+}
+
+.findform {
+	margin: 24px 0 0 0;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	font-size: 18px;
+	line-height: 21px;
+}
+
+.findinput {
+	padding: 7px 8px;
+	color: #969595;
+	font-size: 18px;
+	line-height: 21px;
+	border: 1px solid #979797;
+	min-width: 403px;
+	color: #000000;
+}
+
+.findinput::-webkit-outer-spin-button,
+.findinput::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.findinput[type="number"] {
+	-moz-appearance: textfield;
+}
+
+.findbutton {
+	padding: 7px 32px;
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 21px;
+	background-color: #63c556;
+	outline: 0;
+	border: 0;
+	margin-left: 11px;
+	cursor: pointer;
+}
+
+.helper {
+	position: absolute;
+	bottom: -33px;
+	background: #ffffff;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+	padding: 3px 6px 3px 7px;
+	color: #4a4a4a;
+	cursor: pointer;
+}
+
+.error {
+	color: red;
+	margin-top: 35px;
+}
